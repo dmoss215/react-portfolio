@@ -1,0 +1,16 @@
+.main-landingpage {
+    height: 100vh;
+}
+
+.landing-header-text {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #1D4441;
+}
+
+.social-link {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    width: 20px;
+}
