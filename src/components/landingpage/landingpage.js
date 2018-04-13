@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import './landingpage.css';
-import githubImg from './github.png';
-import linkedinImg from './linkedin.png';
-import emailImg from './email.png';
-import logo from './dmLogo.png';
+import githubImg from './img/github.png';
+import linkedinImg from './img/linkedin.png';
+import emailImg from './img/email.png';
+import logo from './img/logo1.JPG';
 
 class Landing extends Component {
     render() {
@@ -12,6 +12,7 @@ class Landing extends Component {
             <div className="main-landingpage">
                 <Grid>
                     <Cell  className="landing-grid" col={12} tablet={12} style={{textAlign: "center", marginTop: '50px'}}>
+                        {/* <img src={logo} alt="logo" /> */}
                         <img src={logo} alt="logo" />
                     </Cell>
                 </Grid>
